@@ -54,6 +54,10 @@ function RacingSchedule() {
 
   return (
     <div className="App">
+      <div className="headingLogo">
+     
+      <h1>Arena Racing Company</h1>  <img src ="./horselogo.jpg" style={{ width:50, height:50}}/> <h1> ARC</h1>
+      </div>
         <div className="month-navigation">
             <div>Select the month to see the events</div>
         <select className="month-select" value={month} onChange={handleMonthChange}>
